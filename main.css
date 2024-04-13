@@ -6,7 +6,10 @@
 }
 
 body {
-    background-color: #E7E7E7;
+    background-image: url("imagens/pngbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
     padding-top: 100px;
 }
 
@@ -17,12 +20,12 @@ header {
 }
 
 header img {
-    height: 42px;
+    height: 80px;
     margin-right: 8px;
 }
 
 header h1 {
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 700;
 }
 
@@ -34,23 +37,44 @@ header h1 {
 
 form {
     display: flex;
+    max-width: 800px;
+    width: 100%;
     justify-content: space-between;
+    margin-bottom: 56px;
 }
 
 form input {
-    background-color: #fff;
+    background-color: rgba(142, 209, 240, 0.4);
     font-size: 24px;
     border: none;
-    border-bottom: 2px solid #000;
+    border-bottom: 3px solid #000;
+    border-radius: 10px;
     padding: 8px;
 }
 
 form button{
-    background-color: #28a102;
+    background-color: rgba(255, 251, 0,0.5);
     color: #fff;
     font-size: 24px;
     font-weight: 500;
     border: none;
     cursor: pointer;
     padding: 8px;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    font-size: 24px;
+}
+
+table td {
+    text-align: center;
+    font-size: 20px;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.3 );
 }
